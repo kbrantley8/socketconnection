@@ -9,7 +9,7 @@ from models.room import Room
 from utility import generateRandomRoomID
 
 app = Flask(__name__)
-# CORS(app)
+CORS(app)
 socketio = SocketIO(app, cors_allowed_origins="*")
 
 # @app.route('/')
