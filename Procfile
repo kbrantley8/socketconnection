@@ -1,1 +1,1 @@
-web: sh -c 'cd socketconnection && python3 index.py'
+web: python3 index.py
